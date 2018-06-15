@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv=findViewById(R.id.tv);
-        tv.setText(JniKet.testJni());
+        tv.setText("change"+JniKet.testJni());
     }
 }
